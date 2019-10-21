@@ -10,13 +10,15 @@ html {
 }
 
 .link-card {
-  margin: 0 0 1rem;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
 .link-card h2 {
+  margin: 0 0 1rem;
+  padding: 0;
   font-family: Dosis, serif;
   font-size: 1.5rem;
   color: #512200;
@@ -38,25 +40,39 @@ html {
 }
 
 .link-card p {
-  margin: 0;
-  padding-left: 0;
+  margin: 0 0 1rem;
+  padding: 0;
   color: #512200;
 }
 
-.link-card ul {
+.link-card div {
   border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  margin: 0;
+  padding: 0;
+
+}
+
+.link-card ul {
+  margin: 1rem 0 1rem;
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .link-card li {
   color: #512200;
+  font-size: .875rem;
 }
 
 .link-card strong {
-  margin: 0;
+  display: inline-block;
+  margin: 1rem 0 0;
   padding: .4em .75em .5em;
   font-family: Dosis, serif;
   font-size: 1.125rem;
   color: #f0eee8;
   background-color: #785439;
   border-radius: 8px;
+  text-align: center;
 }
