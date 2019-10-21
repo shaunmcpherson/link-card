@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #f0eee8;
   font-family: Georgia, serif;
   line-height: 1.5;
 }
@@ -9,9 +9,54 @@ html {
   box-sizing: inherit;
 }
 
-.cards {
-  margin: 0;
+.link-card {
+  margin: 0 0 1rem;
   padding: 0;
   list-style-type: none;
   text-align: center;
+}
+
+.link-card h2 {
+  font-family: Dosis, serif;
+  font-size: 1.5rem;
+  color: #512200;
+}
+
+.link-card a {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  color: #000;
+  text-decoration: none;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.link-card a:hover {
+  background-color: #cabdb2;
+}
+
+.link-card p {
+  margin: 0;
+  padding-left: 0;
+  color: #512200;
+}
+
+.link-card ul {
+  border-top: 2px solid #9a816d;
+}
+
+.link-card li {
+  color: #512200;
+}
+
+.link-card strong {
+  margin: 0;
+  padding: .4em .75em .5em;
+  font-family: Dosis, serif;
+  font-size: 1.125rem;
+  color: #f0eee8;
+  background-color: #785439;
+  border-radius: 8px;
 }
