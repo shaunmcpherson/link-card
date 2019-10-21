@@ -22,6 +22,7 @@ html {
   font-family: Dosis, serif;
   font-size: 1.5rem;
   color: #512200;
+  text-align: left;
 }
 
 .link-card a {
@@ -32,7 +33,7 @@ html {
   text-decoration: none;
   border: 3px solid #9a816d;
   border-radius: 3px;
-  text-align: left;
+  text-align: center;
 }
 
 .link-card a:hover {
@@ -43,6 +44,7 @@ html {
   margin: 0 0 1rem;
   padding: 0;
   color: #512200;
+  text-align: left;
 }
 
 .link-card div {
@@ -50,7 +52,7 @@ html {
   border-bottom: 2px solid #9a816d;
   margin: 0;
   padding: 0;
-
+  text-align: left;
 }
 
 .link-card ul {
