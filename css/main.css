@@ -10,9 +10,14 @@ html {
 }
 
 .link-card {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  color: #000;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
   text-align: center;
 }
 
@@ -21,22 +26,12 @@ html {
   padding: 0;
   font-family: Dosis, serif;
   font-size: 1.5rem;
+  text-decoration: none;
   color: #512200;
   text-align: left;
 }
 
-.link-card a {
-  display: inline-block;
-  padding: 1rem;
-  background-color: #dcd4cd;
-  color: #000;
-  text-decoration: none;
-  border: 3px solid #9a816d;
-  border-radius: 3px;
-  text-align: center;
-}
-
-.link-card a:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
@@ -44,10 +39,11 @@ html {
   margin: 0 0 1rem;
   padding: 0;
   color: #512200;
+  text-decoration: none;
   text-align: left;
 }
 
-.link-card div {
+.link-card dl {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   margin: 0;
@@ -56,7 +52,7 @@ html {
 }
 
 .link-card ul {
-  margin: 1rem 0 1rem;
+  margin: 1rem 0;
   padding: 0;
   width: 49%;
   display: inline-block;
