@@ -3,6 +3,7 @@ html {
   background-color: #f0eee8;
   font-family: Georgia, serif;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 *, *::before, *::after {
@@ -35,6 +36,9 @@ html {
   background-color: #cabdb2;
 }
 
+a {
+  text-decoration: none;
+}
 .link-card p {
   margin: 0 0 1rem;
   padding: 0;
@@ -43,7 +47,7 @@ html {
   text-align: left;
 }
 
-.link-card dl {
+.link-card nav {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   margin: 0;
@@ -51,17 +55,25 @@ html {
   text-align: left;
 }
 
-.link-card ul {
+.link-card dl {
   margin: 1rem 0;
   padding: 0;
-  width: 49%;
-  display: inline-block;
   list-style-type: none;
 }
 
-.link-card li {
+.link-card dt {
   color: #512200;
   font-size: .875rem;
+  width: 35%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link-card dd {
+  color: #512200;
+  font-size: .875rem;
+  width: 35%;
+  display: inline-block;
 }
 
 .link-card strong {
